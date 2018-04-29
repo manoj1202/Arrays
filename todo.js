@@ -23,4 +23,4 @@ console.log(todo);
 console.log(todo.splice(2,1));
 todo.push('New Todo ');  // Add an element at last
 todo.shift();
-
+console.log(todo);
