@@ -1,4 +1,4 @@
-// challenge 
+// challenge 1
 
 const todo = ['Make break fast', 'Get Ready', 'Walk the Dog',
                         'Play some Game', 'Go for a Walk'];
@@ -14,3 +14,8 @@ for(let y = 0; y < todo.length; y++) {
 
 console.log(` Todo: ${todo[0]}`);
 console.log(` Todo: ${todo[todo.length - 2]}`); // to print last from second element
+
+// challenge 2
+
+//delete 3rd item
+todo.splice(2,1);
