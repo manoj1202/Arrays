@@ -1,8 +1,11 @@
 // Arrays
 const notes = ['Note 1', 'Note 2', 'Note 3'];
 
-notes.push('Note 4');
-notes.pop();
+// Deleting and Inserting an Array element from Last 
+// notes.push('Note 4');
+// notes.pop();
+
+notes.shift("First note");
 
 console.log(notes.length);
 console.log(notes); // retriving elements from font
