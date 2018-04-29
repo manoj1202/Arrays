@@ -14,8 +14,11 @@ for(let y = 0; y < todo.length; y++) {
 
 console.log(` Todo: ${todo[0]}`);
 console.log(` Todo: ${todo[todo.length - 2]}`); // to print last from second element
+console.log("--------------------------------------------");
 
 // challenge 2
 
 //delete 3rd item
 todo.splice(2,1);
+
+console.log(todo);
