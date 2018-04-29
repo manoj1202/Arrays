@@ -5,12 +5,12 @@ const todo = ['Make break fast', 'Get Ready', 'Walk the Dog',
 
 
 console.log(`You Have ${todo.length} things to do `);
-
+/*
 for(let y = 0; y < todo.length; y++) {
     let z = todo[y]
    console.log(z);
 }
+*/
 
-
-
-
+console.log(` Todo: ${todo[0]}`);
+console.log(` Todo: ${todo.lenght - 2}`); // to print last from second element
