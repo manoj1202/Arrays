@@ -18,8 +18,7 @@ console.log("--------------------------------------------");
 
 // challenge 2
 
-//delete 3rd item
-console.log(todo);
+console.log(todo);//delete 3rd item
 console.log(todo.splice(2,1));
 todo.push('New Todo ');  // Add an element at last
 todo.shift();
