@@ -19,6 +19,6 @@ console.log("--------------------------------------------");
 // challenge 2
 
 //delete 3rd item
-todo.splice(2,1);
-
 console.log(todo);
+(console.log(todo).splice(2,1));
+
