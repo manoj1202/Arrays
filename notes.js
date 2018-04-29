@@ -11,7 +11,7 @@ const notes = ['Note 1', 'Note 2', 'Note 3'];
 
 notes.splice(1,1,'New Note Two'); // starts at index " 1" and delete "1" element and inserts "new element"
 notes.splice(1, 0, 'New Note Two.1'); // starts at index " 1" and delete "nothing"(As it cannot go back) element and inserts "new element"
-
+note .splice(1,2);
 
 console.log(notes.length);
 console.log(notes); // retriving elements from font
