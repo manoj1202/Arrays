@@ -13,4 +13,4 @@ for(let y = 0; y < todo.length; y++) {
 */
 
 console.log(` Todo: ${todo[0]}`);
-console.log(` Todo: ${todo.lenght - 2}`); // to print last from second element
+console.log(` Todo: ${todo.length - 2}`); // to print last from second element
