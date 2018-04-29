@@ -7,7 +7,8 @@ let x = todo.length;
 console.log(`You Have ${x} things to do `);
 
 for(let y = 0; y <= todo.length; y++) {
-    return ` Todo: ${todo[y]} `;
+    let z = todo[y]
+    return ` Todo: ${z} `;
 }
 
 
