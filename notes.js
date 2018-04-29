@@ -1,7 +1,8 @@
 // Arrays
 const notes = ['Note 1', 'Note 2', 'Note 3'];
 
-notes.push('Note 4')
+notes.push('Note 4');
+notes.pop();
 
 console.log(notes.length);
 console.log(notes); // retriving elements from font
