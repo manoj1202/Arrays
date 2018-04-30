@@ -19,3 +19,7 @@ console.log(notes.length);
 console.log(notes); // retriving elements from font
 
 // console.log(notes[notes.length - 2]); // retriving elements from last 
+
+console.log('-----------------------------------------------');
+
+console.log(notes.indexOf('Note 2'));
