@@ -23,4 +23,4 @@ console.log(notes); // retriving elements from font
 console.log('-----------------------------------------------');
 
 console.log(notes.indexOf('Note 2'));
-console.log(notes.indexOf('Note 3'))
+console.log(notes.indexOf('Note'))
