@@ -34,3 +34,6 @@ console.log('-----------------------------------------------');
 // console.log(notes.indexOf('Note 2'));
 // console.log(notes.indexOf('Note'))
 
+let someObject = {};
+let anotherObject = someObject;
+console.log(someObject === anotherObject)
