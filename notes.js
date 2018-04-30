@@ -54,6 +54,7 @@ const findNote = function(notes, noteTitle){
     return notes[index];
 }
 
-const note = findNote(notes,'Office modification');
+let note = findNote(notes,'Office modification');
 console.log(note);
-const note = findNote(notes, 'hdbfhvl dlfljd');
+ note = findNote(notes, 'hdbfhvl dlfljd');
+console.log(note);
