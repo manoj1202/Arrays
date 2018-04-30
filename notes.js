@@ -34,6 +34,9 @@ console.log('-----------------------------------------------');
 // console.log(notes.indexOf('Note 2'));
 // console.log(notes.indexOf('Note'))
 
-let someObject = {};
-let anotherObject = someObject;
-console.log(someObject === anotherObject)
+// Objects of same property and  with same property value will never be equal
+// objects are equal only if they are pointing to same object.
+// let someObject = {};
+// let anotherObject = someObject;
+// console.log(someObject === anotherObject)
+
