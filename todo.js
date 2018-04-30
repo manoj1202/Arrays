@@ -26,5 +26,5 @@ todo.shift();
 
 //challenge
 todo.forEach(function(item, index){
-    console.log( `${index + 1}. The First item is ${item}`);
+    console.log( `${index + 1}. The First item is '${item}'`);
 })
