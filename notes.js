@@ -1,5 +1,5 @@
 // Arrays
-const notes = [{},  {
+const notes = [{}, {
     title: 'My Next Trip',
     body: 'i would like to go spain'
 },{
@@ -31,6 +31,6 @@ console.log(notes); // retriving elements from font
 
 console.log('-----------------------------------------------');
 
-console.log(notes.indexOf('Note 2'));
-console.log(notes.indexOf('Note'))
+// console.log(notes.indexOf('Note 2'));
+// console.log(notes.indexOf('Note'))
 
