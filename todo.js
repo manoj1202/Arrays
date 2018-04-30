@@ -31,3 +31,11 @@ todo.forEach(function(item, index){
 
 console.log('-----------------------------------------------');
 console.log(todo);
+
+console.log('-----------------------------------------------');
+
+//challange 
+
+for(let x =0; x <= todo.length; x++){
+    console.log(`${x + 1}. ${todo}`);
+}
