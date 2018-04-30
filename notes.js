@@ -40,3 +40,8 @@ console.log('-----------------------------------------------');
 // let anotherObject = someObject;
 // console.log(someObject === anotherObject)
 
+let index = notes.findIndex(function(note, index){
+    console.log(note);
+})
+
+console.log(index);
