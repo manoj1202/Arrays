@@ -1,5 +1,14 @@
 // Arrays
-const notes = ['Note 1', 'Note 2', 'Note 3'];
+const notes = [{}, {
+    title: 'My Next Trip',
+    body: 'i would like to go spain'
+},{
+    title: 'Habbits to work on' ,
+    body: 'Exercise.Eat a bit  better'
+}, {
+    title: 'Office modification' ,
+    body: 'Get a New seat'
+}];
 
 // Deleting and Inserting an Array element from Last 
 // notes.push('Note 4'); //Inserting 
@@ -24,3 +33,4 @@ console.log('-----------------------------------------------');
 
 console.log(notes.indexOf('Note 2'));
 console.log(notes.indexOf('Note'))
+
