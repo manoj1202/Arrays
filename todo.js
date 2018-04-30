@@ -22,4 +22,9 @@ console.log(todo);//delete 3rd item
 console.log(todo.splice(2,1));
 todo.push('New Todo ');  // Add an element at last
 todo.shift();
-console.log(todo);
+//console.log(todo);
+
+//challenge
+todo.forEach(function(item, index){
+    consle.log( `${index + 1}. The First item is ${item}`);
+})
