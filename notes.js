@@ -1,5 +1,5 @@
 // Arrays
-const notes = [{}, {
+const notes = [{},  {
     title: 'My Next Trip',
     body: 'i would like to go spain'
 },{
