@@ -23,8 +23,11 @@ console.log(todo.splice(2,1));
 todo.push('New Todo ');  // Add an element at last
 todo.shift();
 //console.log(todo);
-
+console.log('-------------------------------------------------')
 //challenge
 todo.forEach(function(item, index){
     console.log( `${index + 1}. The First item is '${item}'`);
 })
+
+console.log('-----------------------------------------------');
+console.log(todo);
