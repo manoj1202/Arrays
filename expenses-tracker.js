@@ -7,7 +7,7 @@ const account = {
             cost : cost
         })
     },
-    getAccountSummary = function () {
+    getAccountSummary : function () {
         let totalExpenses = 0;
         return `${this.name} has $${totalExpenses} in expenses.`
     }
