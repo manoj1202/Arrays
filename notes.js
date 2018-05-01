@@ -1,5 +1,5 @@
 // Arrays
-const notes = [{}, {
+const notes = [ {
     title: 'My Next Trip',
     body: 'i would like to go spain'
 },{
@@ -46,13 +46,20 @@ console.log('-----------------------------------------------');
 // })
 
 // console.log(index);
+const findNotes = function(notes, qyery){}
+return notes.filter(function(note, index){
+    const isTitleMatch = note.title.toLowerCase().includes(query);
+    const isBodyMatch = note.body.toLowerCase().includes(query);
+    return isTitleMatch || isBodyMatch;
+})
+console.log(findNotes(notes, 'ne'))
 
-const findNote = function(notes, noteTitle){
-    return notes.find(function(note, index){
-        return note.title === noteTitle.toLowerCase()
-    })
+// const findNote = function(notes, noteTitle){
+//     return notes.find(function(note, index){
+//         return note.title === noteTitle.toLowerCase()
+//     })
     
-}
+// }
 
-const note = findNote(notes,'Office  modification');
-console.log(note);
+// const note = findNote(notes,'Office  modification');
+// console.log(note);
