@@ -7,6 +7,13 @@ const account = {
             cost : cost
         })
     },
+    income: [],
+    addIncome: function (description, amount) {
+        this.income.push({
+            description: description,
+            amount: amount,
+        })
+    },
     getAccountSummary : function () {
         let totalExpenses = 0;
         let totalIncome = 0;
@@ -14,18 +21,12 @@ const account = {
             totalExpenses = totalExpenses + expense.cost;
         })
         this.income.forEach(function(income){
-            totalIncome = totalIncome + income;
+            totalIncome = totalIncome + income.amount;
         })
         let totalBalance = totalIncome - totalExpenses;
         return `${this.name} has a Balance of $${totalBalance}.$${totalIncome} in Income. $${totalExpenses} in expenses.`
-    },
-    income : [],
-    addIncome : function(description, amount){
-        this.income.push({
-          description : description,
-          amount : amount ,
-        })
-    },
+    }
+    
     
 }
 
