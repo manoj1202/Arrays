@@ -49,10 +49,10 @@ console.log('-----------------------------------------------');
 
 const findNote = function(notes, noteTitle){
     return notes.find(function(note, index){
-        return note.title.toLowerCase() === noteTitle.toLowerCase()
+        return note.title === noteTitle.toLowerCase()
     })
     
 }
 
-const note = findNote(notes,'Office modification');
+const note = findNote(notes,'Office  modification');
 console.log(note);
