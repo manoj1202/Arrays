@@ -46,7 +46,7 @@ console.log('-----------------------------------------------');
 // })
 
 // console.log(index);
-const findNotes = function(notes, qyery){}
+const findNotes = function(notes, query){}
 return notes.filter(function(note, index){
     const isTitleMatch = note.title.toLowerCase().includes(query);
     const isBodyMatch = note.body.toLowerCase().includes(query);
