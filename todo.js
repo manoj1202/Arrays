@@ -16,11 +16,12 @@ const todos = [{
     text: 'Go for a Walk',
     completed: 'no'
 }]
-const getThingsTodo = function(todo)
-const search = todos.filter(function(todo, status){
+const getThingsTodo = function(todo){
+return todos.filter(function(todo, status){
    return todo.completed.toLowerCase().includes('no')
 
 })
+}
 console.log(getThingsTodo(todos));
 
 // const deleteTodo = function(text, status){
