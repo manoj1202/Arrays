@@ -53,7 +53,7 @@ const findNotes = function(notes, query){
     return isTitleMatch || isBodyMatch;
 })
 }
-console.log(findNotes(notes, 'ne!!'))
+console.log(findNotes(notes, 'ne'))
 
 // const findNote = function(notes, noteTitle){
 //     return notes.find(function(note, index){
