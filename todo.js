@@ -16,6 +16,22 @@ const todos = [{
     text: 'Go for a Walk',
     completed: 'no'
 }]
+
+// using sorting 
+const sortTodo = function(todos){
+    todos.sort(function(a, b){
+    if(a.completed.toLowerCase() < b.completed.toLowerCase()){
+        return -1
+    } else if (b.completed.toLowerCase() < a.completed.toLowerCase()){
+        return 1
+    }else {
+        return 0;
+    }
+})
+}
+
+
+// challenge using filter
 const getThingsTodo = function(todo){
 return todos.filter(function(todo){
    return todo.completed === 'no'
