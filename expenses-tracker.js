@@ -9,10 +9,15 @@ const account = {
     },
     getAccountSummary : function () {
         let totalExpenses = 0;
+        let totalIncome = 0;
         this.expenses.forEach(function(expense){
             totalExpenses = totalExpenses + expense.cost;
         })
-        return `${this.name} has $${totalExpenses} in expenses.`
+        this.income.forEach(function(income){
+            totalIncome = totalIncome + income;
+        })
+        let totalBalance = totalIncome - totalExpense;
+        return `${this.name} has a Balance of $${totalBalance}.$${totalIncome} in Income. $${totalExpenses} in expenses.`
     },
     income : [],
     addIncome : function(description, amount){
@@ -20,7 +25,8 @@ const account = {
           description : description,
           amount : amount ,
         })
-    }
+    },
+    
 }
 
 
