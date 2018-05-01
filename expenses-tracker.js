@@ -16,7 +16,7 @@ const account = {
         this.income.forEach(function(income){
             totalIncome = totalIncome + income;
         })
-        let totalBalance = totalIncome - totalExpense;
+        let totalBalance = totalIncome - totalExpenses;
         return `${this.name} has a Balance of $${totalBalance}.$${totalIncome} in Income. $${totalExpenses} in expenses.`
     },
     income : [],
