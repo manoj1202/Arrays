@@ -9,6 +9,6 @@ const account = {
     }
 }
 
-addExpenses('Rent', 150);
-addExpenses('Coffee', 2);
+account.addExpenses('Rent', 150);
+account.addExpenses('Coffee', 2);
 console.log(account);
