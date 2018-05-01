@@ -28,7 +28,7 @@ const deleteTodo = function(text, status){
    }
 }
 
-deleteTodo(todos, 'Get!! ready')
+deleteTodo(todos, 'Get ready')
 console.log(todos);
 
 // challenge 1
