@@ -30,15 +30,18 @@ const sortTodo = function(todos){
 })
 }
 
+sortTodo(todos);
+console.log(todos);
+
 
 // challenge using filter
-const getThingsTodo = function(todo){
-return todos.filter(function(todo){
-   return todo.completed === 'no'
+// const getThingsTodo = function(todo){
+// return todos.filter(function(todo){
+//    return todo.completed === 'no'
 
-})
-}
-console.log(getThingsTodo(todos));
+// })
+// }
+// console.log(getThingsTodo(todos));
 
 // const deleteTodo = function(text, status){
 //     const index = text.findIndex(function(x, index){
