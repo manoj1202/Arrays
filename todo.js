@@ -16,20 +16,26 @@ const todos = [{
     text: 'Go for a Walk',
     completed: 'no'
 }]
+const getThingsTodo = function(todo)
+const search = todos.filter(function(todo, status){
+   return todo.completed.toLowerCase().includes('no')
 
-const deleteTodo = function(text, status){
-    const index = text.findIndex(function(x, index){
-        return x.text.toLowerCase() === status.toLowerCase();
+})
+console.log(getThingsTodo(todos));
+
+// const deleteTodo = function(text, status){
+//     const index = text.findIndex(function(x, index){
+//         return x.text.toLowerCase() === status.toLowerCase();
         
-    })
-    console.log(index);
-   if(index > -1){
-       text.splice(index, 1);
-   }
-}
+//     })
+//     console.log(index);
+//    if(index > -1){
+//        text.splice(index, 1);
+//    }
+// }
 
-deleteTodo(todos, 'Get ready')
-console.log(todos);
+// deleteTodo(todos, 'Get ready')
+// console.log(todos);
 
 // challenge 1
 
