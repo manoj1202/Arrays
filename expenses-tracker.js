@@ -18,4 +18,4 @@ const account = {
 account.addExpenses('Rent', 150);
 account.addExpenses('Coffee', 2);
 console.log(account);
-console.log(account.getAccoutnSummary());
+console.log(account.getAccountSummary());
