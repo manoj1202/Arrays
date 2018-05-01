@@ -6,7 +6,7 @@ const notes = [{}, {
     title: 'Habbits to work on' ,
     body: 'Exercise.Eat a bit  better'
 }, {
-    title: 'Office modification' ,
+    title: 'office modification' ,
     body: 'Get a New seat'
 }];
 // const notes = ['Note 1', 'Note 2', 'Note 3']
@@ -48,10 +48,10 @@ console.log('-----------------------------------------------');
 // console.log(index);
 
 const findNote = function(notes, noteTitle){
-    const index = notes.findIndex(function(note, index){
-        return note.title.toLowerCase() === noteTitle.toLowerCase() 
+    return notes.find(function(note, index){
+        return note.title.toLowerCase() === noteTitle.toLowerCase()
     })
-    return notes[index];
+    
 }
 
 const note = findNote(notes,'Office modification');
