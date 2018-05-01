@@ -5,10 +5,10 @@ const todos = [{
     completed: 'yes'
 }, {
     text: 'Get Ready',
-    completed: 'yes'
+    completed: 'no'
 }, {
     text: 'Walk the Dog ',
-    completed: 'no'
+    completed: 'yes'
 }, {
     text: 'Play some games',
     completed: 'yes'
@@ -17,8 +17,8 @@ const todos = [{
     completed: 'no'
 }]
 const getThingsTodo = function(todo){
-return todos.filter(function(todo, status){
-   return todo.completed.toLowerCase().includes('no')
+return todos.filter(function(todo){
+   return todo.completed === 'no'
 
 })
 }
