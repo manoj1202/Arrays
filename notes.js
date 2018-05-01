@@ -23,7 +23,7 @@ const notes = [{}, {
 // notes.splice(1,2);
 
 
-// notes[2] = 'New Note 2';
+//notes[2] = 'New Note 2';
 console.log(notes.length);
 console.log(notes); // retriving elements from font
 
@@ -49,12 +49,10 @@ console.log('-----------------------------------------------');
 
 const findNote = function(notes, noteTitle){
     const index = notes.findIndex(function(note, index){
-        return note.title.toLowerCase() === noteTitle.toLowerCase();
+        return note.title.toLowerCase() === noteTitle.toLowerCase() 
     })
     return notes[index];
 }
 
-let note = findNote(notes,'Office modification');
-console.log(note);
- note = findNote(notes, 'hdbfhvl dlfljd');
+const note = findNote(notes,'Office modification');
 console.log(note);
