@@ -1,7 +1,7 @@
 const account = {
     name : 'Dolly',
     expenses : [],
-    addExpenses :  function (description, cost){
+    addExpenses (description, cost){
         this.expenses.push({
             description : description,
             cost : cost
